@@ -70,7 +70,9 @@ You can start a sample project of Spring Boot (Ver.1.5.10) with this `proto` fol
 Start prometheus and grafana
 ----
 
-```docker-compose -f docker-compose.yml up -d
+```
+docker-compose -f docker-compose.yml up -d
+
 ```
 
 Stop prometheus and grafana
