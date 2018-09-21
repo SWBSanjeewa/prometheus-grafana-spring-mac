@@ -67,12 +67,15 @@ dependencies {
 
 You can start a sample project of Spring Boot (Ver.1.5.10) with this `proto` folder outside of containers.
 
-Start/stop prometheus and grafana
+Start prometheus and grafana
 ----
 
 docker-compose -f docker-compose.yml up -d
-docker-compose -f docker-compose.yml down
 
+Stop prometheus and grafana
+----
+
+docker-compose -f docker-compose.yml down
 
 Build Spring boot app
 ----
