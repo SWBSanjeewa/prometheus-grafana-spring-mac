@@ -72,25 +72,27 @@ Start prometheus and grafana
 
 ```
 docker-compose -f docker-compose.yml up -d
-
 ```
 
 Stop prometheus and grafana
 ----
 
-```docker-compose -f docker-compose.yml down
+```
+docker-compose -f docker-compose.yml down
 ```
 
 Build Spring boot app
 ----
 
-```proto$ ./gradlew build
+```
+proto$ ./gradlew build
 ```
 
 
 Run Spring boot app
 ----
 
-```proto$ java -jar build/libs/proto-0.1.0.jar
+```
+proto$ java -jar build/libs/proto-0.1.0.jar
 ```
 
